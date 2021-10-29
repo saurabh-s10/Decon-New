@@ -25,12 +25,12 @@ class _BottomState extends State<Bottom> {
   @override
   Widget build(BuildContext context) {
     SizeConfig().init(context);
-    var h = SizeConfig.screenHeight / 812;
-    var b = SizeConfig.screenWidth / 375;
+    var h = SizeConfig.screenHeight / 900;
+    var b = SizeConfig.screenWidth / 400;
 
     return Scaffold(
       drawer: MyDrawer(),
-      bottomNavigationBar: Container(
+      bottomNavigationBar: SizedBox(
         height: h * 60,
         child: BottomNavigationBar(
           backgroundColor: dc,
@@ -51,7 +51,7 @@ class _BottomState extends State<Bottom> {
               label: 'Home',
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.memory, size: b * 26),
+              icon: Icon(Icons.memory, size: b * 32),
               label: 'Devices',
             ),
             BottomNavigationBarItem(
