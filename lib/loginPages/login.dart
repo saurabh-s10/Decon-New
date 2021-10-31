@@ -17,8 +17,8 @@ class _LoginState extends State<Login> {
   @override
   Widget build(BuildContext context) {
     SizeConfig().init(context);
-    var h = SizeConfig.screenHeight / 812;
-    var b = SizeConfig.screenWidth / 375;
+ var h = SizeConfig.screenHeight / 900;
+    var b = SizeConfig.screenWidth / 400;
 
     return Scaffold(
       backgroundColor: Colors.white,

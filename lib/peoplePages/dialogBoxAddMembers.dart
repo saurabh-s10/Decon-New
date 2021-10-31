@@ -18,8 +18,8 @@ class _DialogBoxAddMemberState extends State<DialogBoxAddMember> {
   @override
   Widget build(BuildContext context) {
     SizeConfig().init(context);
-    var b = SizeConfig.screenWidth / 375;
-    var h = SizeConfig.screenHeight / 812;
+    var h = SizeConfig.screenHeight / 900;
+    var b = SizeConfig.screenWidth / 400;
     return Dialog(
       backgroundColor: Colors.white,
       insetPadding: EdgeInsets.symmetric(horizontal: b * 25),

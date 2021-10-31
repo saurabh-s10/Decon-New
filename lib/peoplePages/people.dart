@@ -20,8 +20,8 @@ class _PeopleState extends State<People> {
   @override
   Widget build(BuildContext context) {
     SizeConfig().init(context);
-    var h = SizeConfig.screenHeight / 812;
-    var b = SizeConfig.screenWidth / 375;
+  var h = SizeConfig.screenHeight / 900;
+    var b = SizeConfig.screenWidth / 400;
 
     return Scaffold(
       floatingActionButton: FloatingActionButton(

@@ -18,9 +18,9 @@ class _OtpState extends State<Otp> {
   @override
   Widget build(BuildContext context) {
     SizeConfig().init(context);
-    var h = SizeConfig.screenHeight / 812;
-    var b = SizeConfig.screenWidth / 375;
-    BoxDecoration pinPutDecoration = BoxDecoration(
+  var h = SizeConfig.screenHeight / 900;
+    var b = SizeConfig.screenWidth / 400;
+  BoxDecoration pinPutDecoration = BoxDecoration(
       border: Border.all(
         color: Color(0xFFA9E0FF),
         width: 1,
